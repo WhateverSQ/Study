@@ -16,9 +16,11 @@ else
     {
     Console.WriteLine("There is no trird digit");
     }
-    while (number < -999)
+    else {
+        if (number < -999)
     {
-        Console.WriteLine("Invalid number"); break;
+        Console.WriteLine("Invalid number");
+    }
     }
 }
 
