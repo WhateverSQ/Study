@@ -44,7 +44,7 @@ void FindDifference(double[] array)
         {
             maxElement = array[i];
         }
-        if (array[i] < maxElement)
+        else
         {
             if (array[i] < minElement)
             {
