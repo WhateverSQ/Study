@@ -50,6 +50,7 @@
 17. (true || false) - true, Логическое ИЛИ
 18. (1 == 1) - true, равно
 19. (1 != 1) - false, Не равно
+20. something += smthElse (то же самое что и something = something + smthElse) 
 
 ### Array
 
