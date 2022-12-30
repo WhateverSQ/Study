@@ -1,21 +1,17 @@
 ﻿// Задайте массив заполненный случайными положительными трёхзначными числами. Напишите программу, которая покажет количество чётных чисел в массиве.
 //[345, 897, 568, 234] -> 2
-int length = ReadInt("Array length");
-int[] array = GetRandomArray(length, 99, 999);
-int count = 0;
+using System.Text;
 
-FindEven(array);
-PrintArray(array);
-System.Console.WriteLine(" / ");
-System.Console.WriteLine($"{count}");
+Task34();
 
-void PrintArray(int[] array)
+void Task34()
 {
-    for (int i = 0; i < array.Length; i++)
-    {
-        Console.Write($"{array[i]}, ");
-    }
+int length = ReadInt("Array length");
+int[] array = GetRandomArray(length, 100, 1000);
+System.Console.WriteLine(GetArrayAsString(array));
+System.Console.WriteLine(FindEven(array));
 }
+
 
 int[] GetRandomArray(int length, int minValue, int maxValue)
 {
@@ -36,12 +32,23 @@ int ReadInt(string argument)
 
 int[] FindEven(int [] array)
 {
+    int count = 0;
 for (int i = 0; i < array.Length; i++)
 {
-    if (array[i] % 2 == 0)
-    {
-        count = count + 1;
-    }
+    if (array[i] % 2 == 0) count++;
+    
 }
+System.Console.WriteLine($"Количество четных чисел: {count}");
+
 return array;
+}
+
+string GetArrayAsString (int[] array)
+{
+    StringBuilder sb = new StringBuilder(array.Length); //Создает строку. Чтобы работал, нужно в начале файла написать using System.Text; в скобках минимальный размер строки.
+    for (int i = 0; i < array.Length; i++)
+    {
+        sb.Append($"{array [i]} , "); //StringBuilder добавит в себя эту строку
+    }
+    return sb.ToString();
 }
