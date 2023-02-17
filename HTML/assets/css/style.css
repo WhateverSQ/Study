@@ -1,0 +1,68 @@
+@font-face {
+    font-family: Roboto-Medium;
+    src: url(./assets/fonts/Roboto-Medium.ttf);
+}
+
+html, body
+{
+    overflow-x: hidden;
+    width: 100%;
+    font-family: Roboto-Medium;
+    font-style: normal;
+    font-size: 18px;
+}
+
+header
+{
+    display: flex;
+    flex-direction: row;
+    margin: 15px 15px 70px 15px;
+    padding: 1px 1px 1px 1px;
+}
+
+.logo
+{
+    width: 80px;
+    height: 80px;
+    margin: 15px 110px 70px 30px;
+}
+
+h1
+{
+    margin: 1px 15px 15px 15px;
+}
+
+nav
+{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    padding: 0 10px 0 0;
+}
+
+nav li
+{
+    padding: 75px 15px 0 0;
+}
+
+.main
+{   
+    margin: 15px 1000px 100px 100px;
+}
+
+.sidebar
+{
+    float: right;
+    margin: 15px 100px 100px 100px;
+}
+
+footer
+{
+    margin: 0 30px 0 30px;
+}
+
+a:hover
+{
+    color: deeppink;
+}
+
