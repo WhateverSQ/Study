@@ -1,6 +1,23 @@
+<?php
+$Name = 'Никита';
+$arr = [
+    'key0' => 'RandomFact0',
+    'key1' => 'RandomFact1'
+]
+$Skills = [
+    'idx0' => 'Adobe Photoshop',
+    'idx1' => 'Photography',
+    'idx2' => 'Games!',
+    'edx3' => 'Media'
+    ]
+?>
+
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <script language="JavaScript" src="./assets/js/script.js"> </script>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -37,6 +54,7 @@
             <ol>
                 <li>Начал сохранять мемы еще 7 лет назад</li>
                 <li>Сохраняю их очень редко</li>
+                <li><?php echo $arr['key0']; ?></li>
             </ol>        
             <h2 id="Beloved_meme">Любимый мем</h2>
             <img src="https://sun2.userapi.com/sun2-22/s/v1/ig2/fUFmDx4LZ0DZynqsgBFwClAUhSx6JBjpgUSL4u0z5pzUNCz9qLPzQmqLOLBlLN7r8ABcm3RzhamsC8GNlWpS4DhO.jpg?size=500x482&quality=95&type=album" alt="Любимый мем">
