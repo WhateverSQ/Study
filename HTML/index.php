@@ -4,12 +4,6 @@ $arr = [
     'key0' => 'RandomFact0',
     'key1' => 'RandomFact1'
 ]
-$Skills = [
-    'idx0' => 'Adobe Photoshop',
-    'idx1' => 'Photography',
-    'idx2' => 'Games!',
-    'edx3' => 'Media'
-    ]
 ?>
 
 

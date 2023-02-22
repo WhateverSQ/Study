@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+    <film>
+        <name>Апокалипсис сегодня</name>
+        <genre>военный, драма, история, боевик</genre>
+        <director>Фрэнсис Форд Коппола</director>
+        <year>1979</year>
+        <starring>Мартин Шин, Марлон Брандо, Роберт Дювалл, Лоренс Фишбёрн, Харрисон Форд</starring>
+    </film>
+    <film>
+        <name>Карты, деньги, два ствола</name>
+        <genre>боевик, комедия, криминал</genre>
+        <director>Гай Ричи</director>
+        <year>1998</year>
+        <starring>Джейсон Стэйтем, Винни Джонс, Джейсон Флеминг, Декстер Флетчер, Ник Моран</starring>
+    </film>
+    <film>
+        <name>Криминальное чтиво</name>
+        <genre>криминал, драма</genre>
+        <director>Квентин Тарантино</director>
+        <year>1994</year>
+        <starring>Квентин Тарантино, Джон Траволта, Брюс Уиллис, Сэмюэл Л. Джексон, Ума Турман</starring>
+    </film>
+    <film>
+        <name>Бойцовский клуб</name>
+        <genre>триллер, драма, криминал</genre>
+        <director>Дэвид Финчер</director>
+        <year>1999</year>
+        <starring>Эдвард Нортон, Брэд Питт, Хелена Бонем Картер, Мит Лоаф</starring>
+    </film>
+    <film>
+        <name>Большой куш</name>
+        <genre>криминал, комедия, боевик</genre>
+        <director>Гай Ричи</director>
+        <year>2000</year>
+        <starring>Джейсон Стэйтем, Стивен Грэм, Брэд Питт, Алан Форд</starring>
+    </film>
+</catalog>

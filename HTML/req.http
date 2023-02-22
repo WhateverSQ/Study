@@ -1,0 +1,5 @@
+GET https://yandex.ru
+
+###
+
+POST https://yandex.ru/search/?text=cats

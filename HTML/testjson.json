@@ -1,0 +1,42 @@
+{
+    "key" : "value",
+    "key 2" : "value2",
+    "array":[
+        {
+            "key3":"value3",
+            "key4":"value4"
+        }
+    ],
+    "array2" : ["value5", "value6"]
+}
+
+{
+    "Catalog" : 
+    
+        [{
+            "productName" : "Яблоки",
+            "weight" : "1000",
+            "group" : "Фрукты",
+            "price" : "150",
+            "warehouseNum" : "1"
+        }],
+        [{
+            "productName" : "Картошка ранняя",
+            "weight" : "5000",
+            "group" : "Овощи",
+            "price" : "320",
+            "warehouseNum" : "2"
+        }],
+    
+        {"product1" : 
+            {
+                "productName" : ["Яблоки", "Апельсины"],
+                "weight" : [1000, 1200],
+                "group" : ,
+                "price" : ,
+                "warehouseNum" : 
+            }
+        },
+        
+    
+}
